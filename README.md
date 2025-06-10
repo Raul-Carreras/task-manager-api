@@ -26,7 +26,6 @@ Una API RESTful desarrollada con **NestJS**, **JWT**, **Prisma** y **PostgreSQL*
 
 ---
 
-
 ---
 
 ## 📦 Dependencias Principales
@@ -51,7 +50,6 @@ Instálalas con:
 npm install @nestjs/core @nestjs/common @nestjs/jwt @nestjs/passport passport passport-jwt bcrypt @prisma/client @nestjs/swagger swagger-ui-express
 npm install prisma --save-dev
 ```
-
 
 ## ⚙️ Instalación
 
@@ -114,24 +112,24 @@ http://localhost:3000/api
 ### 🔐 Autenticación
 
 | Método | Ruta           | Descripción           |
-|--------|----------------|------------------------|
-| POST   | /auth/register | Registro de usuarios   |
-| POST   | /auth/login    | Login y obtención JWT  |
+| ------ | -------------- | --------------------- |
+| POST   | /auth/register | Registro de usuarios  |
+| POST   | /auth/login    | Login y obtención JWT |
 
 ### 📋 Tareas (Requiere JWT)
 
-| Método | Ruta         | Descripción                |
-|--------|--------------|-----------------------------|
-| GET    | /tasks       | Obtener tareas del usuario |
-| POST   | /tasks       | Crear nueva tarea          |
-| PATCH  | /tasks/:id   | Marcar como hecha/no hecha |
-| DELETE | /tasks/:id   | Eliminar tarea             |
+| Método | Ruta       | Descripción                |
+| ------ | ---------- | -------------------------- |
+| GET    | /tasks     | Obtener tareas del usuario |
+| POST   | /tasks     | Crear nueva tarea          |
+| PATCH  | /tasks/:id | Marcar como hecha/no hecha |
+| DELETE | /tasks/:id | Eliminar tarea             |
 
 ---
 
 ## 👨‍💻 Autor
 
-Desarrollado por [Tu Nombre o Usuario de GitHub].
+Desarrollado por Raul Carreras.
 
 ---
 
