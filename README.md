@@ -58,7 +58,7 @@ npm install prisma --save-dev
 ### 1. Clona el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/task-manager-api.git
+git clone https://github.com/Raul-Carreras/task-manager-api.git
 cd task-manager-api
 ```
 
