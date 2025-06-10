@@ -24,3 +24,7 @@ Thumbs.db
 
 # Docker
 **/pgdata/
+
+#Sripts
+subir_proyecto_github.bat
+
